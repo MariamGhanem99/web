@@ -16,7 +16,6 @@ nav {
     top:0;
     position: fixed;
     z-index: 1000;
-    margin: 0;
 }
 nav h3{
     color: rgb(216, 61, 157);
@@ -151,7 +150,7 @@ nav li  :hover{
     height: 10em;
 }
 .project .stk{
-        margin-top: 4em;
+    margin-top: 4em;
 }
 .project .stk a{
     margin: 0.5em;
@@ -270,6 +269,7 @@ nav li  :hover{
 }
 .card:hover {
     transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.8);
     background-color: #997aa4;
 }
 .card i {
@@ -306,9 +306,9 @@ nav li  :hover{
     transform: scale(1.05);
 }
  .contact i{
-        font-size: 3rem;
-      color: rgb(216, 61, 157);  
-          transition: transform 0.3s;   
+    font-size: 3rem;
+    color: rgb(216, 61, 157);  
+    transition: transform 0.3s;   
  }
 .contact .fin div {
     display: flex;
@@ -362,7 +362,7 @@ body.lik .pm img {
     height: 100%;
     object-fit: cover;
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     html, body {
         overflow-x: hidden;
     }
@@ -385,12 +385,12 @@ body.lik .pm img {
     }
     .project .stk {
         text-align: center;  
+        }
         .home .cen h2,
     .home .cen h3 ,    .resume h2{
         text-align: center;
         margin-left: 0;
     }
-}
     .resume {
         width: 95%;
         margin: 1em auto; 
@@ -424,7 +424,3 @@ body.lik .pm img {
         justify-content: space-around; 
     }
 }
-
-
-
-
